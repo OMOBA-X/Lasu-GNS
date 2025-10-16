@@ -628,8 +628,8 @@ input {
   /* --- PURE CSS DRAWER & HAMBURGER LOGIC (The definitive fix) --- */
   /* ----------------------------------------------------------------- */
 
-  .text-and-logo{
-    margin-left: 15px; 
+  .text-and-logo {
+    margin-left: 15px;
   }
 
   /* SHOW HAMBURGER ICON */
@@ -889,5 +889,51 @@ input {
     padding: 1.25rem;
     border-bottom: none;
     border-top: none;
+  }
+
+  .counter-section {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    gap: 20px;
+    padding: 50px;
+  }
+
+  .B70 {
+    width: 80vw;
+    margin-left: 40px;
+    height: 45vh;
+  }
+
+  figcaption {
+    width: 70%;
+    margin-left: 16%;
+    margin-top: -15%;
+    z-index: 99;
+    position: absolute;
+  }
+
+  .video-section-header, #lasu-news{
+    margin: 20px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .form-header{
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 1rem;
+  }
+
+  #contact-details{
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .clmn-hdr{
+    font-size: 1rem;
+  }
+
+  .footer-content{
+    width: 100%;
   }
 }
