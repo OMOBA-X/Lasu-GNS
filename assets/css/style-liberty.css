@@ -912,28 +912,45 @@ input {
     position: absolute;
   }
 
-  .video-section-header, #lasu-news{
+  .video-section-header,
+  #lasu-news {
     margin: 20px;
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
-  .form-header{
+  .form-header {
     font-weight: bolder;
     margin-left: 20px;
     font-size: 1rem;
   }
 
-  #contact-details{
+  #contact-details {
     margin: 10px;
     padding: 20px;
   }
 
-  .clmn-hdr{
+  .clmn-hdr {
     font-size: 1rem;
   }
 
-  .footer-content{
+  .footer-content {
     width: 100%;
+  }
+
+  .column1,
+  .column2,
+  .column3,
+  .column4 {
+    width: 100%;
+  }
+
+  .form-btn {
+    text-align: center;
+  }
+
+  .submit {
+    text-align: center;
+    padding-left: 40%;
   }
 }
